@@ -56,7 +56,7 @@ import AdminPanel from './components/AdminPanel'; // IMPORT ADMIN PANEL
 import LogsPanel from './components/LogsPanel';
 import PasswordDialog from './components/PasswordDialog'; // IMPORT PASSWORD DIALOG
 import { DigitalDisplay } from './components/DigitalDisplay';
-import { useNotification } from './components/NotificationProvider';
+import { useNotification } from './components/NotificationProvider.tsx';
 import { API_BASE_URL } from './config';
 
 const DEMO_DATA: ONTRecord[] = [
